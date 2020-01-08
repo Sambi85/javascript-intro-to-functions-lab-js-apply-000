@@ -1,3 +1,4 @@
+
 var uppercase = "HELLO!"
  
 uppercase.toUpperCase() === uppercase // true
@@ -11,6 +12,7 @@ var mixedCase = 'Hi there!'
 mixedCase.toLowerCase() === mixedCase // false
  
 mixedCase.toUpperCase() === mixedCase // false
+
 
 
 
@@ -31,6 +33,7 @@ function logWhisper(string) {
   console.log(string.toLowerCase());
 }
 
+<<<<<<< HEAD
 
 if (time < 10) {
   greeting = "Good morning";
@@ -55,3 +58,16 @@ function sayHiToGrandma(string) {
 }
  }
           
+
+ function sayHiToGrandma(string) {
+  return `I can't hear you!`;
+}
+
+function sayHiToGrandma(string) {
+  return `YES INDEED!`;
+}
+
+function sayHiToGrandma(string) {
+  return `I love you, too.`;    
+}
+
